@@ -4,4 +4,9 @@ public class Water extends Environment<Swimmable> {
         for (Swimmable traffic : this.traffic) {
             traffic.swim();
         }}
+
+    @Override
+    public void checkVehicles() {
+
+    }
 }

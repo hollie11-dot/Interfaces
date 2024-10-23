@@ -5,4 +5,11 @@ public class Road extends Environment<Drivable> {
             traffic.drive();
         }
     }
+
+    @Override
+    public void checkVehicles() {
+        for (Drivable vehicle : this.vehicles) {
+            vehicle.drive();
+        }
+    }
 }

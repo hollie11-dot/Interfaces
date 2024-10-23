@@ -5,4 +5,12 @@ public class Sky extends Environment<Flyable> {
             traffic.fly();
         }
     }
+
+    @Override
+    public void checkVehicles() {
+        for (Flyable vehicle : this.vehicles) {
+            vehicle.fly();
+        }
+
+    }
 }
