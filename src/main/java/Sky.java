@@ -1,4 +1,8 @@
 public class Sky extends Environment<Flyable> {
     @Override
-    public void checkTraffic() {}
+    public void checkTraffic() {
+        for (Flyable traffic : this.traffic) {
+            traffic.fly();
+        }
+    }
 }
