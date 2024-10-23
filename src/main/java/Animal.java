@@ -1,3 +1,3 @@
 public abstract class Animal {
-    abstract void makeSound();
+    public abstract void makeSound();
 }

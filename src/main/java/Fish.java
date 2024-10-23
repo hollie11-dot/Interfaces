@@ -1,6 +1,6 @@
 public class Fish extends Animal {
     @Override
-    void makeSound() {
+    public void makeSound() {
 
     }
 }
